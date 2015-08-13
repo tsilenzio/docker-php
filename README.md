@@ -1,8 +1,5 @@
 # About this Repo
 
-This is the Git repo of the official Docker image for [php](https://registry.hub.docker.com/_/php/). See the
-Hub page for the full readme on how to use the Docker image and for information
-regarding contributing and issues.
+This is the git repo of an altered offical docker image for [php](https://registry.hub.docker.com/_/php/). The offical git repo for this image is located [here](https://github.com/docker-library/php)
 
-The full readme is generated over in [docker-library/docs](https://github.com/docker-library/docs),
-specificially in [docker-library/docs/php](https://github.com/docker-library/docs/tree/master/php).
+I simply swapped out the jessie base image for my altered phusion baseimage located [here](https://github.com/tsilenzio/docker-base).
