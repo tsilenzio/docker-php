@@ -49,7 +49,7 @@ for version in "${versions[@]}"; do
 		fi
 
 		if [ "$build" = true ]; then
-			docker build -t tsilenzio/php:$va $version
+			docker build -t tsilenzio/php:$va $version/$variant
 		fi
 
 		if [ "$release" = true ]; then
@@ -67,7 +67,7 @@ for version in "${versions[@]}"; do
 			fi
 
 			if [ "$build" = true ]; then
-				docker build -t tsilenzio/php:$va $version
+				docker build -t tsilenzio/php:$va $version/$variant
 			fi
 
 			if [ "$release" = true ]; then
